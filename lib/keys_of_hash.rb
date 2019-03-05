@@ -10,6 +10,7 @@ class Hash
       binding.pry
       end
     end
+    end
     animals
   end
 end
