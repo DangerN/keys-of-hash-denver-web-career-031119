@@ -3,11 +3,11 @@ class Hash
   def keys_of(*arguments)
     animals = []
     #animals << self.key(*arguments)
-    arguments
+    arguments.each do |argument|
     self.each do | creature , place |
-      if place == arguments[0]
+      if place == argument
         animals << creature
-      #binding.pry
+      binding.pry
       end
     end
     animals
