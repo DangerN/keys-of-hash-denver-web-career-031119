@@ -1,7 +1,7 @@
 require 'pry'
 class Hash
   def keys_of(*arguments)
-    arr = []
+    animal = []
     binding.pry
   end
 end
