@@ -7,7 +7,7 @@ class Hash
     self.each do | creature , place |
       if place == argument
         animals << creature
-      binding.pry
+      #binding.pry
       end
     end
     end
