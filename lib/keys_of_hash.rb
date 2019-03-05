@@ -7,6 +7,7 @@ class Hash
       if place == arguments[0]
         animals << creature
       #binding.pry
+      end
     end
   end
 end
