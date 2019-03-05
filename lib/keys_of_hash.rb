@@ -10,4 +10,5 @@ class Hash
       end
     end
   end
+  animals
 end
