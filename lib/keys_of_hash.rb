@@ -9,6 +9,6 @@ class Hash
       #binding.pry
       end
     end
+    animals
   end
-  animals
 end
