@@ -3,6 +3,7 @@ class Hash
   def keys_of(*arguments)
     animals = []
     #animals << self.key(*arguments)
+    arguments
     self.each do | creature , place |
       if place == arguments[0]
         animals << creature
